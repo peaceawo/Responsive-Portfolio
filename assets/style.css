@@ -1,0 +1,518 @@
+*{box-sizing: border-box}
+html, body{
+    background-image: url("img/dynamic.jpg");
+    margin: 0%;
+    height: 100%;
+}
+.headerband{
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    margin-top:0%;
+    border: solid 1px#cccccc
+
+}
+.head h1{ 
+    color: white;
+    background-color: #4aaaa5;
+    padding: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:fixed;
+    margin-top: 0%;
+}
+
+#nav{float: right;
+    width: 25%; 
+    margin-top: 21px;
+
+}
+span{opacity: 0.2;
+}
+
+#nav a{
+    color:#777777; 
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px;
+}
+#nav a:hover{
+    background-color: #4aaaa5;
+    cursor: pointer;
+}
+.header{
+    margin-top: 20px;
+    width: 960px;
+    margin: auto;
+   
+}
+.wrapper{
+ min-height: 100%
+}
+.main-box{clear: both;
+    background-color:#ffffff;
+    width: 960px;
+    border:solid 1px #dddddd;
+    margin:auto;
+    height: auto;
+    margin-top: 20px;
+  
+ 
+}
+.main-box h2{
+    color: #4aaaa5;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+.main-box img{float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.main-box p{color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 30px;
+    padding-bottom: auto;
+
+}
+.main-box hr{color: #777777;
+}
+
+.footer{
+    font-size: 12px;
+    background-color: #666666;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+    position: relative;
+    padding: 10px;   
+}
+
+#footer-text{color:#ffffff}
+
+/**
+ * contact Form
+ **/
+ .main-contact{clear: both;
+    background-color:#ffffff;
+    width: 960px;
+    height: auto;
+    border:solid 1px #dddddd;
+    margin:auto;
+    margin-top: 20px;
+    height: auto;
+
+ 
+ }
+ .main-contact h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+ }
+.main-contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-left: 20px;    
+}
+
+.form-control{
+    width: 913px;
+    outline: none;
+    font-size: 15px;
+    text-align: left;
+    margin: 0px 20px;
+}
+
+input{ height: 45px;
+}
+
+.button-control{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    border: none;   
+}
+
+.button-control:hover{opacity: 0.7;
+    cursor: pointer;
+    
+}
+
+/**
+ * Portfolio
+ **/
+ .main-portfolio{clear: both;
+    background-color:#ffffff;
+    width: 960px;
+    height: auto;
+    border:solid 1px #dddddd;
+    margin:auto;
+    height: auto;
+    margin-top: 20px;
+ }
+ .main-portfolio h2{
+    color: #4aaaa5;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+ }
+ .main-portfolio :hover {opacity: 0.7}
+
+ .main-portfolio .box1{
+     width: 250px;
+     height: 180px;
+     margin: 10px;
+     margin-left: 63px;
+     border:solid 1px #dddddd;
+     display: inline-block;
+     background:url("img/taboo.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     cursor: pointer;
+ }
+ 
+ .main-portfolio .box2{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 22px;
+    border:solid 1px #dddddd;
+    display: inline-block;
+    background:url("img/jenger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .main-portfolio .box3{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 22px;
+    border:solid 1px #dddddd;
+    display: inline-block;
+    background:url("img/trivia.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    cursor: pointer;
+
+ }
+ .main-portfolio .box4{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 63px;
+    border:solid 1px #dddddd;
+    display: inline-block;
+    background:url("img/apples.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+ }
+ .main-portfolio .box5{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 22px;
+    border:solid 1px #dddddd;
+    display: inline-block;
+    background:url("img/rock.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    cursor: pointer;
+ }
+ .main-portfolio .box6{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 22px;
+    display: inline-block;
+    border:solid 1px #dddddd;
+    background:url("img/Uno.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+ }
+
+ .box1 a{
+     color: #ffffff;
+     font-family: Arial, Helvetica, sans-serif;
+     padding:6px;
+     background-color: #4aaaa5;
+     text-align: center;
+     text-decoration-line: none;
+     font-size: 18px;
+     display:block; 
+     margin-top: 50%;   
+    }
+
+ .box2 a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px;
+    background-color: #4aaaa5;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 18px;
+    display:block;
+    margin-top: 50%;  
+ }
+
+ .box3 a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px;
+    background-color: #4aaaa5;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 18px;
+    display:block;
+    margin-top: 50%;  
+}
+
+.box4 a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px;
+    background-color: #4aaaa5;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 18px;
+    display:block;
+    margin-top: 50%;  
+}
+.box5 a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px;
+    background-color: #4aaaa5;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 18px;
+    display:block;
+    margin-top: 50%;  
+}
+.box6 a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px;
+    background-color: #4aaaa5;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 18px;
+    display:block;
+    margin-top: 50%;  
+}
+/** Regular Screen **/
+
+@media screen and (max-width:980px){
+    .headerband{
+        width: 100%;
+    }
+    #nav{
+        width:45%
+    }
+    .main-box{
+        width: 80%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .main-portfolio{
+        width: 80%;
+    }
+    .main-portfolio .box1{
+        width: 200px;
+        height: 144px;
+        margin: 8px;
+        margin-left: 50.4px;
+    }
+    .main-portfolio .box2{
+        width: 200px;
+        height: 144px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box3{
+        width: 200px;
+        height: 144px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box4{
+        width: 200px;
+        height: 144px;
+        margin: 8px;
+        margin-left: 50.4px;
+    }
+    .main-portfolio .box5{
+        width: 200px;
+        height: 144px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box6{
+        width: 200px;
+        height: 144px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-contact{
+        width: 80%;
+    }
+    .form-control{
+        width: 620px;
+    }
+}
+
+/** Tablet Screen **/
+@media screen and (max-width:780px){
+    .headerband{
+        width: 100%;
+    }
+    #nav{
+        width:60%
+    }
+
+    .head h1{
+        margin-left: 5%;
+    }
+
+    .main-box{
+        width: 90%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .main-portfolio{
+        width: 90%;
+    }
+    
+    .main-portfolio .box1{
+        width: 180px;
+        height: 150px;
+        margin: 8px;
+        margin-left: 50.4px;
+    }
+    .main-portfolio .box2{
+        width: 180px;
+        height: 150px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box3{
+        width: 180px;
+        height: 150px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box4{
+        width: 180px;
+        height: 150px;
+        margin: 8px;
+        margin-left: 50.4px;
+    }
+    .main-portfolio .box5{
+        width: 180px;
+        height: 150px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box6{
+        width: 180px;
+        height: 150px;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-contact{
+        width: 90%;
+    }
+    .form-control{
+        width: 580px;
+    }
+
+}
+/** Phone Screen **/
+@media screen and (max-width:640px){
+    .headerband{
+        text-align: center;
+        height: 22%;
+        position: static;
+    }
+    .main-box{
+        width: 80%;
+        margin-top: 0%;
+    }
+
+    .main-box img{
+        width: 90%;
+    }
+    .head h1{
+        width: 100%;
+        margin-left: 0;
+    }
+    #nav{
+        width: 100%;
+        margin-top: 8%;
+        position: relative;
+        right: 17%;
+    }
+
+    .main-portfolio{
+        width: 80%;
+        margin-top: 0%;
+    
+    }
+    .main-portfolio .box1{
+        width: 90%;
+        margin: 8px;
+        height: auto;
+        margin-left: 4%;
+    }
+    .main-portfolio .box2{
+        width: 90%;
+        height: auto;
+        margin: 8px;
+        margin-left: 17px;
+    }
+    .main-portfolio .box3{
+        width: 90%;
+        height: auto;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box4{
+        width: 90%;
+        height: auto;
+        margin: 8px;
+        margin-left: 4%;
+    }
+    .main-portfolio .box5{
+        width: 90%;
+        height: auto;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-portfolio .box6{
+        width: 90%;
+        height: auto;
+        margin: 8px;
+        margin-left: 17.6px;
+    }
+    .main-contact{
+        width: 80%;
+        margin-top: 0%;
+    }
+    .form-control{
+        width: 90%;
+    }
+
+}
+
